@@ -1,0 +1,46 @@
+header {
+    background-color: #171616;
+    height: 100vh;
+}
+
+#mainTitle {
+    text-align: center;
+    padding: 40px;
+    color: #C2C2C2;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.firstIndexBox {
+    max-width: 65%;
+    margin: 150px auto 0 auto;
+    display: flex;
+}
+
+.textBoxIndexBox {
+    max-width: 47%;
+    padding: 40px;
+}
+
+#logan {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#firstDescription {
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+}
+
+#logan, #firstDescription {
+    color: #C2C2C2;
+}
+
+.imageIndexBox img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border: 1px solid transparent;
+    box-shadow: 0 2px 4px #C2C2C2;
+}
+

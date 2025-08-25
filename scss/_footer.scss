@@ -1,0 +1,18 @@
+footer {
+    background-color: #171616;
+    padding: 50px;
+    color: #C2C2C2;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer-socials-box {
+    display: flex;
+    gap: 15px;
+}
+
+#footer-socials-box a i {
+    font-size: 24px;
+    color: #C2C2C2;
+}
