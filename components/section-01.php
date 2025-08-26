@@ -16,8 +16,17 @@
 
             'description' => 'Users can browse products without logging in, and after registering, add items to the cart, adjust quantities, and complete purchases via cash or card. Upon checkout, an automatic WhatsApp message is sent to the sales manager. The admin panel allows dynamic catalog management, all connected to a MySQL database and running online 24/7.',
 
-            'gh' => 'https://github.com/martinmehrwaldt/first-professional-practice', 'lk' => 'https://www.linkedin.com/in/martin-mehrwaldt-13548820b/',
-            'url' => 'https://m-madefroni.wuaze.com')
+            'gh' => 'https://github.com/martinmehrwaldt/first-professional-practice',
+            'lk' => 'https://www.linkedin.com/in/martin-mehrwaldt-13548820b/',
+            'url' => 'https://m-madefroni.wuaze.com',
+            
+            'tech' => '
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-css3"></i>
+            <i class="fa-brands fa-js"></i>
+            <i class="fa-brands fa-php"></i>
+            <i class="fa-solid fa-database"></i>
+            ')
         );
 
         for($i=0; $i<count($works); $i++) {
@@ -54,15 +63,31 @@
 
                 </div>
 
+                <div id="techs-box">
+
+                    <span>Built with</span>
+
+                    <div id="techs">
+                        <?php echo $works[$i]['tech']; ?>
+                    </div>
+
+                </div>
+
                 <div id="links-box">
 
-                    <a href="<?php echo $works[$i]['gh']; ?>" target="_blank">
-                        <i class="fa-brands fa-github"></i>
-                    </a>
+                    <span>Links</span>
 
-                    <a href="<?php echo $works[$i]['lk']; ?>" target="_blank">
-                        <i class="fa-brands fa-linkedin"></i>
-                    </a>
+                    <div id="links">
+
+                        <a href="<?php echo $works[$i]['gh']; ?>" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                        <a href="<?php echo $works[$i]['lk']; ?>" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+
+                    </div>
 
                 </div>
 

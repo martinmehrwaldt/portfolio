@@ -57,7 +57,49 @@
     gap: 10px;
 }
 
-#links-box a i {
+#links-box a i, #techs-box i {
     font-size: 24px;
     color: #171616;
+}
+
+#techs-box, #links-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#techs-box span, #links-box span {
+    font-style: italic;
+    font-size: .9rem;
+}
+
+#links, #techs {
+    display: flex;
+    gap: 10px;
+}
+
+@media (max-width: 1280px) {
+
+    #box-works {
+        min-width: 40%;
+    }
+
+}
+
+@media (max-width: 820px) {
+
+    #box-works {
+        min-width: 80%;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    #box-works {
+
+        min-width: 180%;
+
+    }
+
 }

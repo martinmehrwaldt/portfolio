@@ -1,6 +1,6 @@
 header {
     background-color: #171616;
-    height: 100vh;
+    padding: 50px 0 210px 0;
 }
 
 #mainTitle {
@@ -44,3 +44,65 @@ header {
     box-shadow: 0 2px 4px #C2C2C2;
 }
 
+@media (max-width: 1280px) {
+
+    .firstIndexBox {
+        max-width: 80%;
+    }
+
+}
+
+@media (max-width: 1024px) {
+
+    .firstIndexBox {
+        max-width: 90%;
+    }
+
+}
+
+@media (max-width: 820px) {
+
+    .firstIndexBox {
+        max-width: 99%;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 10px 0 100px 0;
+    }
+
+    .firstIndexBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textBoxIndexBox {
+        max-width: 90%;
+        text-align: center;
+    }
+
+    #firstDescription {
+        font-size: 0.9rem;
+        line-height: 1.3rem;
+        letter-spacing: 1px;
+    }
+
+    #logan {
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+
+    .imageIndexBox {
+        display: flex;     
+        justify-content: center; 
+    }
+
+    .imageIndexBox img {
+        width: 80%;
+    }
+
+}
