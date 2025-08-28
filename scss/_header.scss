@@ -1,25 +1,78 @@
 header {
     background-color: #171616;
-    padding: 50px 0 210px 0;
+    padding: 50px 0 150px 0;
+}
+
+.language {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.language button {
+    display: flex;
+    background-color: transparent;
+    color: #C2C2C2;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+#cabecera {
+    border-bottom: 1px solid #C2C2C2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#cabecera span {
+    color: #C2C2C2;
+}
+
+#cabecera #socials-header i {
+    font-size: 1.2rem;
+    color: #C2C2C2;
+    margin-bottom: 40px;
 }
 
 #mainTitle {
     text-align: center;
-    padding: 40px;
+    padding: 5px 0 20px 0;
     color: #C2C2C2;
     font-weight: 100;
     letter-spacing: 1px;
+    font-size: 4rem;
+    word-wrap: break-word; /* evitar overflow */
+}
+
+#mainTitle span{
+    margin-top: 10px;
+    font-size: 1rem;
+    font-style: italic;
+    margin: 0 auto;
+    word-wrap: break-word;
+}
+
+#mainTitle span i {
+    display: flex;
+    flex-direction: row;
 }
 
 .firstIndexBox {
     max-width: 65%;
-    margin: 150px auto 0 auto;
+    margin: 100px auto 0 auto;
     display: flex;
 }
 
 .textBoxIndexBox {
-    max-width: 47%;
-    padding: 40px;
+    padding: 30px;
+}
+
+.textBoxIndexBox h3, .textBoxIndexBox p {
+    max-width: 650px;
+    word-wrap: break-word;
 }
 
 #logan {
@@ -27,18 +80,19 @@ header {
     margin-bottom: 20px;
 }
 
-#firstDescription {
+.firstDescription {
     letter-spacing: 2px;
     font-size: 1.1rem;
+    margin-bottom: 20px;
+    max-width: 80%;
 }
 
-#logan, #firstDescription {
+#logan, .firstDescription {
     color: #C2C2C2;
 }
 
 .imageIndexBox img {
-    width: 90%;
-    height: 90%;
+    max-width: 90%;
     object-fit: cover;
     border: 1px solid transparent;
     box-shadow: 0 2px 4px #C2C2C2;
@@ -85,7 +139,7 @@ header {
         text-align: center;
     }
 
-    #firstDescription {
+    .firstDescription {
         font-size: 0.9rem;
         line-height: 1.3rem;
         letter-spacing: 1px;

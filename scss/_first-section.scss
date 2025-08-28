@@ -2,18 +2,17 @@
     padding: 55px;
 }
 
+#work {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 #article-works {
     padding: 50px;
     display: flex;
     justify-content: center;
-    align-items: center;
-}
-
-#box-works {
-    width: 20%;
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
 }
 
 #box-title-s01 {
@@ -29,6 +28,7 @@
 }
 
 #box-works {
+    flex: 0 1 400px;  
     padding: 20px;
     color: #171616;
     display: flex;
@@ -40,7 +40,8 @@
 
 #box-works #img-works img {
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
+    height: 200px;
     cursor: pointer;
     border-radius: 12px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.2);

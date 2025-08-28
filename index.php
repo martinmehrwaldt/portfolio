@@ -5,11 +5,11 @@
 
 <body>
 
-    <?php include('components/header.html'); ?>
+    <?php include('components/header.php'); ?>
     <?php include('components/section-01.php'); ?>
 
 </body>
 
-<?php include('components/footer.html'); ?>
+<?php include('components/footer.php'); ?>
 
 </html>

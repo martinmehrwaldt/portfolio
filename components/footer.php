@@ -1,3 +1,5 @@
+<?php include('lang.php'); ?>
+
 <footer>
 
     <div id="footer-first-element">
@@ -8,32 +10,31 @@
 
     <div id="footer-socials-box">
 
-        <span>Keep in touch</span>
+        <span>
+
+            <?php
+                echo $lang === 'en' ? 'Keep in touch'
+                                    : 'Contacto';
+            ?>
+
+        </span>
 
         <div id="socials">
 
             <a href="https://github.com/martinmehrwaldt" target="_blank">
-
                 <i class="fa-brands fa-github"></i>
-
             </a>
 
             <a href="https://www.linkedin.com/in/martin-mehrwaldt-13548820b/" target="_blank">
-
                 <i class="fa-brands fa-linkedin"></i>
-
             </a>
 
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mmehrwaldt@gmail.com" target="_blank">
-
                 <i class="fa-solid fa-envelope"></i>
-
             </a>
 
             <a href="https://wa.me/5493518032679" target="_blank">
-
                 <i class="fa-brands fa-whatsapp"></i>
-
             </a>
 
         </div>
