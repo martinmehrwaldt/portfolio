@@ -37,7 +37,7 @@
         ],
 
         [
-            'img' => 'coming-soon.jpg',
+            'img' => '26690.jpg',
             'title' => ['en' => 'What is next?', 'es' => '¿Qué sigue?'],
 
             'description' => [

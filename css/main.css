@@ -48,6 +48,10 @@ header {
   margin-bottom: 40px;
 }
 
+#cabecera #socials-header a {
+  text-decoration: none;
+}
+
 #mainTitle {
   text-align: center;
   padding: 5px 0 20px 0;
@@ -249,6 +253,130 @@ header {
     min-width: 180%;
   }
 }
+.main-box-about-me {
+  padding: 50px;
+}
+
+.box-title-abme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-title-abme .title-abme {
+  color: #171616;
+  padding: 15px;
+  margin: 20px;
+  font-size: 2rem;
+  color: #171616;
+}
+
+.box-about-me {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 3rem;
+  margin: 50px auto;
+  border: 3px solid #171616;
+  border-radius: 20px;
+  max-width: 50%;
+}
+
+.options-abme ul li {
+  list-style: none;
+  padding: 5px;
+}
+
+.options-abme ul li button {
+  padding: 10px;
+  cursor: pointer;
+  min-width: 100%;
+  background-color: transparent;
+  border: 3px solid #171616;
+  border-radius: 10px;
+}
+
+.tab-content {
+  opacity: 0;
+  transform: translateX(100px);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  max-height: 0;
+  overflow: hidden;
+  max-width: 600px;
+  margin-left: 15px;
+}
+
+#profile p {
+  margin-bottom: 15px;
+}
+
+.tab-content.active {
+  opacity: 1;
+  transform: translateX(0);
+  max-height: 1000px;
+}
+
+.negrita-abme {
+  font-weight: bolder;
+}
+
+.tab-content i {
+  padding: 10px;
+  font-size: 1.9rem;
+  margin-bottom: 10px;
+}
+
+.date-madefroni {
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
+#experience p {
+  margin-top: 10px;
+}
+
+.spans-education {
+  display: flex;
+  flex-direction: column;
+}
+
+.education-siglo21 {
+  font-style: italic;
+  font-size: 0.8rem;
+  font-weight: bolder;
+}
+
+#education div {
+  margin-bottom: 10px;
+}
+
+#education div a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#education div a {
+  font-size: 0.9rem;
+  font-weight: bolder;
+}
+
+#resume {
+  display: flex;
+  flex-direction: row;
+}
+
+#resume div {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+#resume div a i {
+  color: #171616;
+}
+
 footer {
   background-color: #171616;
   padding: 50px;
